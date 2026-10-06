@@ -1,0 +1,2502 @@
+{
+ "0:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "0:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "1:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "1:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "2:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "2:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "3:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "3:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "4:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "4:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "5:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "5:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "6:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "6:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "7:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "7:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "8:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "8:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "9:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "9:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "10:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "10:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "11:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "11:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "12:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "12:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "13:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "13:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "14:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "14:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "15:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "15:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "16:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "16:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "17:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "17:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "18:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "18:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "19:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "19:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "20:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "20:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "21:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "21:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "22:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "22:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "23:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "23:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "24:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "24:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "25:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "25:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "26:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "26:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "27:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "27:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "28:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "28:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "29:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "29:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "30:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "30:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "31:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "31:outcome": {
+  "anchor": "failure",
+  "key": "misguided",
+  "description": "The agent pursued an incorrect approach that deviated from the intended goal but did not result in failure or harm."
+ },
+ "32:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "32:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "33:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "33:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "34:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "34:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "35:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "35:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "36:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "36:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "37:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "37:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "38:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "38:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "39:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "39:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "40:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "40:outcome": {
+  "anchor": "failure",
+  "key": "misguided",
+  "description": "The agent pursued an incorrect approach that deviated from the intended goal but did not result in failure or harm."
+ },
+ "41:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "41:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "42:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "42:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "43:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "43:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "44:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "44:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "45:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "45:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "46:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "46:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "47:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "47:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "48:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "48:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "49:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "49:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "50:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "50:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "51:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "51:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "52:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "52:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "53:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "53:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "54:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "54:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "55:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "55:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "56:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "56:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "57:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "57:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "58:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "58:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "59:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "59:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "60:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "60:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "61:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "61:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "62:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "62:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "63:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "63:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "64:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "64:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "65:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "65:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "66:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "66:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "67:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "67:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "68:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "68:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "69:action": {
+  "anchor": "stop",
+  "key": "pause_and_resume_later",
+  "description": "Temporarily halt the agent's execution and allow it to resume later with the same context and state."
+ },
+ "69:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "70:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "70:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "71:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "71:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "72:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "72:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "73:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "73:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "74:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "74:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "75:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "75:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "76:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "76:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "77:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "77:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "78:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "78:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "79:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "79:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "80:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "80:outcome": {
+  "anchor": "failure",
+  "key": "misguided",
+  "description": "The agent pursued an incorrect approach that deviated from the intended goal but did not result in failure or harm."
+ },
+ "81:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "81:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "82:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "82:outcome": {
+  "anchor": "failure",
+  "key": "misguided",
+  "description": "The agent pursued an incorrect approach that deviated from the intended goal but did not result in failure or harm."
+ },
+ "83:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "83:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "84:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "84:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "85:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "85:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "86:action": {
+  "anchor": "stop",
+  "key": "pause_and_resume_later",
+  "description": "Temporarily halt the agent's execution and allow it to resume later with the same context and state."
+ },
+ "86:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "87:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "87:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "88:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "88:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "89:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "89:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "90:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "90:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "91:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "91:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "92:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "92:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "93:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "93:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "94:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "94:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "95:action": {
+  "anchor": "continue",
+  "key": "log_and_continue",
+  "description": "Let the agent proceed without interruption, but record detailed telemetry for downstream analysis and monitoring."
+ },
+ "95:outcome": {
+  "anchor": "success",
+  "key": "correct_with_optimization",
+  "description": "The agent completed the task correctly and implemented an efficient or improved approach that goes beyond the minimal requirement."
+ },
+ "96:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "96:outcome": {
+  "anchor": "harmful",
+  "key": "unsafe",
+  "description": "The agent took an action that violated a safety constraint but did not cause direct damage or harm."
+ },
+ "97:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "97:outcome": {
+  "anchor": "failure",
+  "key": "misguided",
+  "description": "The agent pursued an incorrect approach that deviated from the intended goal but did not result in failure or harm."
+ },
+ "98:action": {
+  "anchor": "observe",
+  "key": "analyze",
+  "description": "Keep running and perform automated root cause analysis on the trace for actionable insights."
+ },
+ "98:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "99:action": {
+  "anchor": "human_review",
+  "key": "escalate_to_senior",
+  "description": "Queue this trace for a senior engineer to review, targeting complex or high-risk cases that exceed the scope of standard human review."
+ },
+ "99:outcome": {
+  "anchor": "partial",
+  "key": "incomplete_due_to_constraints",
+  "description": "The agent made progress but was unable to complete the task due to strict constraints or external limitations that prevented further action."
+ },
+ "100:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "101:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "102:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "103:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "104:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "105:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "106:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "107:category": {
+  "anchor": "refund",
+  "key": "partial_refund",
+  "description": "The customer is requesting a partial amount to be refunded, rather than a full refund."
+ },
+ "108:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "109:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "110:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "111:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "112:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "113:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "114:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "115:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "116:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "117:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "118:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "119:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "120:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "121:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "122:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "123:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "124:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "125:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "126:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "127:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "128:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "129:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "130:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "131:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "132:category": {
+  "anchor": "refund",
+  "key": "partial_refund",
+  "description": "The customer is requesting a partial amount to be refunded, rather than a full refund."
+ },
+ "133:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "134:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "135:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "136:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "137:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "138:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "139:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "140:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "141:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "142:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "143:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "144:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "145:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "146:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "147:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "148:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "149:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "150:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "151:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "152:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "153:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "154:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "155:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "156:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "157:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "158:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "159:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "160:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "161:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "162:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "163:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "164:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "165:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "166:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "167:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "168:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "169:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "170:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "171:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "172:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "173:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "174:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "175:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "176:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "177:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "178:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "179:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "180:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "181:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "182:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "183:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "184:category": {
+  "anchor": "refund",
+  "key": "partial_refund",
+  "description": "The customer is requesting a partial amount to be refunded, rather than a full refund."
+ },
+ "185:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "186:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "187:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "188:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "189:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "190:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "191:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "192:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "193:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "194:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "195:category": {
+  "anchor": "delivery",
+  "key": "delivery_delay",
+  "description": "The customer is inquiring about a delayed shipping timeline or expected arrival date."
+ },
+ "196:category": {
+  "anchor": "refund",
+  "key": "partial_refund",
+  "description": "The customer is requesting a partial amount to be refunded, rather than a full refund."
+ },
+ "197:category": {
+  "anchor": "technical",
+  "key": "integration",
+  "description": "The product is not properly connecting with another service or platform."
+ },
+ "198:category": {
+  "anchor": "billing",
+  "key": "invoice_discrepancy",
+  "description": "The invoice amount or items listed do not match the customer's expected charges or usage."
+ },
+ "199:category": {
+  "anchor": "account",
+  "key": "two_factor_auth",
+  "description": "The customer is having trouble setting up or verifying their two-factor authentication."
+ },
+ "200:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "201:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "202:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "203:disposition": {
+  "anchor": "hold",
+  "key": "pending_verification",
+  "description": "Awaiting confirmation from the vendor regarding invoice details such as quantities or pricing; holds payment until vendor provides corrected information."
+ },
+ "204:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "205:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "206:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "207:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "208:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "209:disposition": {
+  "anchor": "hold",
+  "key": "pending_verification",
+  "description": "Awaiting confirmation from the vendor regarding invoice details such as quantities or pricing; holds payment until vendor provides corrected information."
+ },
+ "210:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "211:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "212:disposition": {
+  "anchor": "reject",
+  "key": "dispute",
+  "description": "Payment disputed by vendor due to invoice error or mismatch; requires vendor resolution before payment can proceed."
+ },
+ "213:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "214:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "215:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "216:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "217:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "218:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "219:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "220:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "221:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "222:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "223:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "224:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "225:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "226:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "227:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "228:disposition": {
+  "anchor": "hold",
+  "key": "pending_verification",
+  "description": "Awaiting confirmation from the vendor regarding invoice details such as quantities or pricing; holds payment until vendor provides corrected information."
+ },
+ "229:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "230:disposition": {
+  "anchor": "reject",
+  "key": "dispute",
+  "description": "Payment disputed by vendor due to invoice error or mismatch; requires vendor resolution before payment can proceed."
+ },
+ "231:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "232:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "233:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "234:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "235:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "236:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "237:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "238:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "239:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "240:disposition": {
+  "anchor": "reject",
+  "key": "dispute",
+  "description": "Payment disputed by vendor due to invoice error or mismatch; requires vendor resolution before payment can proceed."
+ },
+ "241:disposition": {
+  "anchor": "reject",
+  "key": "dispute",
+  "description": "Payment disputed by vendor due to invoice error or mismatch; requires vendor resolution before payment can proceed."
+ },
+ "242:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "243:disposition": {
+  "anchor": "reject",
+  "key": "dispute",
+  "description": "Payment disputed by vendor due to invoice error or mismatch; requires vendor resolution before payment can proceed."
+ },
+ "244:disposition": {
+  "anchor": "hold",
+  "key": "pending_verification",
+  "description": "Awaiting confirmation from the vendor regarding invoice details such as quantities or pricing; holds payment until vendor provides corrected information."
+ },
+ "245:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "246:disposition": {
+  "anchor": "hold",
+  "key": "pending_verification",
+  "description": "Awaiting confirmation from the vendor regarding invoice details such as quantities or pricing; holds payment until vendor provides corrected information."
+ },
+ "247:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "248:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "249:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "250:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "251:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "252:disposition": {
+  "anchor": "hold",
+  "key": "pending_verification",
+  "description": "Awaiting confirmation from the vendor regarding invoice details such as quantities or pricing; holds payment until vendor provides corrected information."
+ },
+ "253:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "254:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "255:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "256:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "257:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "258:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "259:disposition": {
+  "anchor": "hold",
+  "key": "pending_verification",
+  "description": "Awaiting confirmation from the vendor regarding invoice details such as quantities or pricing; holds payment until vendor provides corrected information."
+ },
+ "260:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "261:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "262:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "263:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "264:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "265:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "266:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "267:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "268:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "269:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "270:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "271:disposition": {
+  "anchor": "hold",
+  "key": "pending_verification",
+  "description": "Awaiting confirmation from the vendor regarding invoice details such as quantities or pricing; holds payment until vendor provides corrected information."
+ },
+ "272:disposition": {
+  "anchor": "hold",
+  "key": "pending_verification",
+  "description": "Awaiting confirmation from the vendor regarding invoice details such as quantities or pricing; holds payment until vendor provides corrected information."
+ },
+ "273:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "274:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "275:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "276:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "277:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "278:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "279:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "280:disposition": {
+  "anchor": "hold",
+  "key": "pending_verification",
+  "description": "Awaiting confirmation from the vendor regarding invoice details such as quantities or pricing; holds payment until vendor provides corrected information."
+ },
+ "281:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "282:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "283:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "284:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "285:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "286:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "287:disposition": {
+  "anchor": "hold",
+  "key": "pending_verification",
+  "description": "Awaiting confirmation from the vendor regarding invoice details such as quantities or pricing; holds payment until vendor provides corrected information."
+ },
+ "288:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "289:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "290:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "291:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "292:disposition": {
+  "anchor": "hold",
+  "key": "pending_verification",
+  "description": "Awaiting confirmation from the vendor regarding invoice details such as quantities or pricing; holds payment until vendor provides corrected information."
+ },
+ "293:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "294:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "295:disposition": {
+  "anchor": "manual_review",
+  "key": "finance_hold",
+  "description": "Payment is on hold for finance to verify compliance with internal policies before approval."
+ },
+ "296:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "297:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "298:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "299:disposition": {
+  "anchor": "approve",
+  "key": "approve_with_conditions",
+  "description": "Matches the order and delivery but requires specific conditions to be met before payment is approved."
+ },
+ "300:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "301:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "302:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "303:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "304:disposition": {
+  "anchor": "close_benign",
+  "key": "review_for_policy_compliance",
+  "description": "Activity aligns with expected behavior but requires verification against organizational security policies before closure."
+ },
+ "305:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "306:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "307:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "308:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "309:disposition": {
+  "anchor": "monitor",
+  "key": "alert_and_monitor",
+  "description": "Initial action taken to alert stakeholders and continue monitoring for further signs of compromise."
+ },
+ "310:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "311:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "312:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "313:disposition": {
+  "anchor": "monitor",
+  "key": "alert_and_monitor",
+  "description": "Initial action taken to alert stakeholders and continue monitoring for further signs of compromise."
+ },
+ "314:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "315:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "316:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "317:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "318:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "319:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "320:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "321:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "322:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "323:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "324:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "325:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "326:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "327:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "328:disposition": {
+  "anchor": "close_benign",
+  "key": "review_for_policy_compliance",
+  "description": "Activity aligns with expected behavior but requires verification against organizational security policies before closure."
+ },
+ "329:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "330:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "331:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "332:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "333:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "334:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "335:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "336:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "337:disposition": {
+  "anchor": "close_benign",
+  "key": "review_for_policy_compliance",
+  "description": "Activity aligns with expected behavior but requires verification against organizational security policies before closure."
+ },
+ "338:disposition": {
+  "anchor": "monitor",
+  "key": "alert_and_monitor",
+  "description": "Initial action taken to alert stakeholders and continue monitoring for further signs of compromise."
+ },
+ "339:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "340:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "341:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "342:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "343:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "344:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "345:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "346:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "347:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "348:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "349:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "350:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "351:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "352:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "353:disposition": {
+  "anchor": "monitor",
+  "key": "alert_and_monitor",
+  "description": "Initial action taken to alert stakeholders and continue monitoring for further signs of compromise."
+ },
+ "354:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "355:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "356:disposition": {
+  "anchor": "monitor",
+  "key": "alert_and_monitor",
+  "description": "Initial action taken to alert stakeholders and continue monitoring for further signs of compromise."
+ },
+ "357:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "358:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "359:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "360:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "361:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "362:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "363:disposition": {
+  "anchor": "monitor",
+  "key": "alert_and_monitor",
+  "description": "Initial action taken to alert stakeholders and continue monitoring for further signs of compromise."
+ },
+ "364:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "365:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "366:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "367:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "368:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "369:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "370:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "371:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "372:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "373:disposition": {
+  "anchor": "monitor",
+  "key": "alert_and_monitor",
+  "description": "Initial action taken to alert stakeholders and continue monitoring for further signs of compromise."
+ },
+ "374:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "375:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "376:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "377:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "378:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "379:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "380:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "381:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "382:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "383:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "384:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "385:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "386:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "387:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "388:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "389:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "390:disposition": {
+  "anchor": "contain",
+  "key": "isolate",
+  "description": "Physically or network-wise disconnect the host from the network to prevent lateral movement, immediately but without full containment actions."
+ },
+ "391:disposition": {
+  "anchor": "monitor",
+  "key": "alert_and_monitor",
+  "description": "Initial action taken to alert stakeholders and continue monitoring for further signs of compromise."
+ },
+ "392:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "393:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "394:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "395:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "396:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "397:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "398:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ },
+ "399:disposition": {
+  "anchor": "investigate",
+  "key": "escalate_to_senior",
+  "description": "Requires escalation to a senior analyst due to complexity or potential high impact, beyond standard investigation scope."
+ }
+}
